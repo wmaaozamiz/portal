@@ -1,0 +1,128 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--Coded by Sir Bhem2x Apare for WMAA-Ozamiz City/ July 7, 2021-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>WMA ACADEMY-OZAMIZ PORTAL</title>
+<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body{
+    background-color: yellow;
+    padding: 10 50 0 10;
+}
+.div1{
+    width: cover;
+    margin:auto;
+    margin: 10 0 0 10px;
+    overflow: hidden;
+    padding: 75px;
+    background: #1f0549;
+
+}
+.div2{background-color: yellow;}/*yellow*/
+label{
+    color: white;
+    padding-left: 10px;
+}
+
+.inputText{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    padding-left: 8px;
+}
+
+#logButtone{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 100px;
+    color: rgba(253, 238, 30, 0.918);
+    font-size: 100px;
+    padding-left: 100px;
+    cursor: pointer;  
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    text-align: center;
+    color: rgb(6, 6, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.row {
+    padding: 0 8px;
+    margin: 0px;
+    margin-top: 15px;
+    margin-left: 100px;
+
+}
+
+
+</style>
+</head>
+<body>
+    <h2><strong>WELCOME TO WMA ACADEMY-OZAMIZ PORTAL</strong></h2>
+    <p style="text-align: center;"><img src="images/WMAA THUMBNAIL.png" alt="Thumbnail" height="350" width= /></a>
+
+    <p style="text-align:center;" ><a href="#"><img src="images/Portal.png" alt="enrollmenttracker" width="400" height="100" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" /></a>
+  
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+              
+            <!-- Modal content-->
+            <div class="modal-content">
+                    
+                <div class="div1">
+                    <img src="images/WMAA Logo 44KB.png" alt="Logo" style="width:200px">
+                    <h3 style="color: yellow;">WMA ACADEMY-OZAMIZ</h3>
+                    <form name="myForm" method="post">
+                        <label>Username</label>
+                        <input type="text" name="Uname" class="inputText" placeholder="Username">
+                        <br><br>
+                        <label>Password</label>
+                        <input type="password" name="Pass" class="inputText" placeholder="Password">
+                        <br><br>
+                        <input type="button" name="log" id="logButton" value="Login" onclick="myFunction()">
+                        <br><br>
+                        
+                    </form>
+                    <script>
+                        function myFunction()
+                        {
+                            var un = document.forms["myForm"]["Uname"].value;
+                            var pw = document.forms["myForm"]["Pass"].value;
+                            if(un=="faculty" && pw=="2021")
+                            {
+                                window.location.href="index.html";
+                            }
+                            else{
+                                alert("Invalid Username and Password");
+                            }
+                
+                        }
+                    </script>
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
