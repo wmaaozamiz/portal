@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <title>WMA Academy-Ozamiz StudentList</title>
@@ -9,6 +8,44 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid rgb(7, 11, 66);
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid rgb(178, 255, 54);
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(5, 2, 19);
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: rgb(241, 243, 134);
+}
+
+
 </style>
 <body class="w3-light-grey">
 
@@ -59,6 +96,103 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <header class="w3-container" style="padding-top:22px">
     <h5><b><i class="fa fa-users"></i><strong>WMA ACADEMY-OZAMIZ STUDENT LISTS</strong></b></h5>
   </header>
+  <!--End of Header-->
+
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for student names..." title="Type in a name">
+<ul id="myUL">
+    <!--Grade 7 Males//-->
+  <li><a href="#">APAO, Venz Letrell</a></li>
+  <li><a href="#">BESANA, James</a></li>
+  <li><a href="#">BUGAS, John</a></li>
+  <li><a href="#">ECTIN, Kaizer</a></li>
+  <li><a href="#">FERNANDEZ, John Carlo</a></li>
+  <li><a href="#">HALASAN, Gerald Matthew</a></li>
+  <li><a href="#">JAVA, Emmanuel Klein</a></li>
+  <li><a href="#">LAZAGA, John Kirby</a></li>
+  <li><a href="#">LAZAGA, Krizzam Klent</a></li>
+  <li><a href="#">ODCHIGUE, Abpramylouie</a></li>
+  <li><a href="#">PIEDAD, Roel John</a></li>
+  <li><a href="#">SAGARIO, Royce Fael</a></li>
+  <li><a href="#">SOMONTAN, Bryan</a></li>
+  <li><a href="#">UBA, Jay Van</a></li>
+  
+  <!--Grade 7 Females-->
+
+  <li><a href="#">APAO, Zoephia</a></li>
+  <li><a href="#">BARANGGAN, Ashanna</a></li>
+  <li><a href="#">BUTALID, Cassandra Dail Grace</a></li>
+  <li><a href="#">CABAÑEROS, </a></li>
+  <li><a href="#">CAJOTE, </a></li>
+  <li><a href="#">CORPORAL, Lux-Lorenz </a></li>
+  <li><a href="#">ENCALLADO, Angel</a></li>
+  <li><a href="#">FERRER, Jewel Nadine</a></li>
+  <li><a href="#">MANLANGIT, </a></li>
+  <li><a href="#">NAVARRO, Merbe Dawn</a></li>
+  <li><a href="#">PAMONAG, Heavenne Blesse</a></li>
+  <li><a href="#">PARAN,  Rhian Rose</a></li>
+  <li><a href="#">SAQUIN Mychaila Gem</a></li>
+
+<!--Grade 8 Males-->
+
+  <li><a href="#">ALGOSO, Johnrey</a></li>
+  <li><a href="#">DUCOR, John Russel</a></li>
+  <li><a href="#">ECTIN, Bryce</a></li>
+  <li><a href="#">ENGRACIA, Charles Ray</a></li>
+  <li><a href="#">JAYSON, Joeriefc Dave Y.</a></li>
+  <li><a href="#">JIMENEZ, John Mark E.</a></li>
+  <li><a href="#">MAQUILAVA, Gabriel Richard</a></li>
+  <li><a href="#">PAULIN, Lawrence Ethan</a></li>
+  <li><a href="#">RAPIRAP, John Dwayne</a></li>
+
+<!--Grade 8 Females-->
+
+  <li><a href="#">ABORDO, Fritz Lady Hyacinth</a></li>
+  <li><a href="#">BALIBREA, Frances Raven</a></li>
+  <li><a href="#">BUGAS, Jhemaima</a></li>
+  <li><a href="#">REVIL, Shekinah Rafols</a></li>
+  <li><a href="#">TORRES, Rrel May</a></li>
+
+  <!--Grade 9 Males-->
+
+  <li><a href="#">ALCONTIN, John Daniel</a></li>
+  <li><a href="#">BACO, Kenji</a></li>
+  <li><a href="#">BALURAN, James Christopher</a></li>
+  <li><a href="#">BARGAMENTO, John Wendel</a></li>
+  <li><a href="#">Calahat, Voun</a></li>
+  <li><a href="#">CORVERA, Justice John</a></li>
+  <li><a href="#">DEL SOCORRO, Richmond Theo</a></li>
+  <li><a href="#">FLORENDO, Kerk Hammeth</a></li>
+  <li><a href="#">FUENTES, Reich David</a></li>
+  <li><a href="#">HECALE, Christian Gail</a></li>
+  <li><a href="#">SAYSON, Mike Jeff Edenn</a></li>
+  <li><a href="#">SUMABAT, Clark Christopher</a></li>
+  <li><a href="#">SUMAGAYSAY, Francis Louie</a></li>
+  <li><a href="#">TO-ONG, John Michael</a></li>
+  <li><a href="#">VALERO, Andrei John</a></li>
+  <li><a href="#">VERDAN, Crissean</a></li>
+
+<!--Grade 9 Females-->
+
+  <li><a href="#">ARBASTO, Airelle Sophia</a></li>
+  <li><a href="#">BALILIHAN, Nicole</a></li>
+  <li><a href="#">BASTE, Nikka Marien</a></li>
+  <li><a href="#">CALAHAT, Jessa May</a></li>
+  <li><a href="#">DOSOL, Nicoloe Beverly</a></li>
+  <li><a href="#">ECTIN, Shenelle</a></li>
+  <li><a href="#">FABE, Nika</a></li>
+  <li><a href="#">JALEM, Sunday </a></li>
+  <li><a href="#">MAMA, Angelina Belle</a></li>
+  <li><a href="#">MAROTE, Stephanie</a></li>
+  <li><a href="#">ORNOPIA, Janelle Carys</a></li>
+  <li><a href="#">PANCHO, Jaryll</a></li>
+  <li><a href="#">PERIGO, Sunshienne</a></li>
+  <li><a href="#">SAGARIO, Irah Joy</a></li>
+  <li><a href="#">TAYRUS, Princess May</a></li>
+
+   <!--End of Student Lists-->
+</ul>
+
+<br>
 
     <div class="w3-container">
       <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
@@ -87,18 +221,21 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
   
   <hr>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
     
   <!-- Footer -->
@@ -131,6 +268,58 @@ function w3_open() {
 function w3_close() {
   mySidebar.style.display = "none";
   overlayBg.style.display = "none";
+}
+
+//Search bar function
+
+var UL = document.getElementById("myUL");
+// hilde the list by default
+UL.style.display = "none";
+
+var searchBox = document.getElementById("myInput");
+
+// show the list when the input receive focus
+searchBox.addEventListener("focus",  function(){
+    // UL.style.display = "block";
+});
+
+// hide the list when the input receive focus
+searchBox.addEventListener("blur", function(){
+    UL.style.display = "none";
+});
+
+
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    ul = document.getElementById("myUL");
+    filter = input.value.toUpperCase();
+    // if the input is empty hide the list
+    if(filter.trim().length < 1) {
+        ul.style.display = "none";
+        return false;
+    } else {
+        ul.style.display = "block";
+    }
+
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+
+        // This is when you want to find words that contain the search string
+     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) { 
+        li[i].style.display = "";
+     } else {
+        li[i].style.display = "none";
+    } 
+
+    // This is when you want to find words that start the search string
+    /*if (a.innerHTML.toUpperCase().startsWith(filter)) {
+        li[i].style.display = "";
+    } else {
+        li[i].style.display = "none";
+    }*/
+    }
 }
 </script>
 
