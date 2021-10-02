@@ -7,7 +7,23 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif;
+background-image: url('images/image1.jpg');
+background-size: 100%;
+background-repeat: repeat;
+background-attachment: fixed;
+}
+h3,h4{
+  color: #000;
+  font-weight: bolder;
+  background: beige;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
 </style>
 <body class="w3-light-grey">
 
@@ -20,10 +36,10 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </div>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-dark-grey w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-dark-grey w3-left" style="z-index:3;width:300px;" id="mySidebar"><br>
   <div class="w3-container w3-row">
     <p style="text-align: center;"><img src="https://iili.io/RNjGOg.png" width="150">
-    <h2 style="text-align: center;">SY: 2021-2022</h2>
+    <h2 style="text-align: center; color: #000;"><strong>SY:2021-2022</strong></h2>
     
   </div>
   <hr>
@@ -34,7 +50,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
     <a href="dashboard.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
     <a href="student.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>Students</a>
-    <a href="moduletracker.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-list-alt fa-fw"></i>Module Tracker</a>
+    <a href="moduletracker/moduletrackerQ1.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-list-alt fa-fw"></i>Module Tracker</a>
     <a href="grades.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-map-o fa-fw"></i>Grades</a>
     
     <!--
@@ -46,6 +62,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     -->
     <a href="index.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-power-off"></i>  Log Out</a><br><br>
   </div>
+  <p style="text-align: center;"><small><i>Copyright<span>&copy;</span>2021: &nbsp;WMA Academy-Ozamiz City Inc.</i></small></p>
 </nav>
 
 
@@ -104,8 +121,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   </div>
 
   <table>
-    <h3><i class="fa fa-sticky-note"></i><strong>Note</strong> </h3>
-    <p style="background-color: mediumpurple;">
+    <h3><i class="fa fa-bell"></i><strong>Note</strong> </h3>
+    <p style="background-color: mediumpurple; background: beige;" >
       <strong>
         <i>
           Grade Sheets and Student Roster is now available. <br>
@@ -117,29 +134,30 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     </p>
   </table>
   <hr>
-  <div class="w3-container">
-    <h5><strong>Student Populations</strong></h5>
-    <p>Grade 7</p>
+  <div class="w3-container" style="background: beige;">
+    <h3><i class="fa fa-users"></i><strong>Student Populations</strong></h3>
+    <h3>Grade 7</h3>
     <div class="w3-grey">
       <div class="w3-container w3-center w3-padding w3-blue" style="width:54%">27</div>
     </div>
 
-    <p>Grade 8</p>
+    <h3>Grade 8</h3>
     <div class="w3-grey">
       <div class="w3-container w3-center w3-padding w3-teal" style="width:28%">14</div>
     </div>
 
-    <p>Grade 9</p>
+    <h3>Grade 9</h3>
     <div class="w3-grey">
       <div class="w3-container w3-center w3-padding w3-orange" style="width:62%">31</div>
     </div>
+    <br>
   </div>
   <hr>
 
  
   <!-- Footer -->
   <footer class="w3-container w3-padding-4 w3-light-grey">
-    <h5><strong><i>WMA Academy-Ozamiz City Inc. ∫ 409946 ∫ Linabo, Bañadero, Ozamiz City</i></strong></h>
+    <h5 style="background: burlywood;"><strong><i>WMA Academy-Ozamiz City Inc. ∫ 409946 ∫ Linabo, Bañadero, Ozamiz City</i></strong></h>
   </footer>
 
   <!-- End page content -->
