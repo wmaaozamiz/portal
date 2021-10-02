@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<title>Welcome Maam Allen!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif;
+background-image: url('images/image1.jpg');
+background-size: 100%;
+background-repeat: repeat;
+background-attachment: fixed;
+}
+h3,h4{
+  color: #000;
+  font-weight: bolder;
+  background: beige;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+</style>
+<body class="w3-light-grey">
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-green w3-large" style="z-index:4">
+  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>Menu</button>
+  <span class="w3-bar-item w3-center"><img src="https://iili.io/RNjGOg.png" alt="WMA LogCap" width="" height="35px" style="margin-left: 5px;" >
+    WESTERN MINDANAO ADVENTIST ACADEMY-OZAMIZ CITY INC.</a>
+  </span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-dark-grey w3-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <p style="text-align: center;"><img src="https://iili.io/RNjGOg.png" width="150">
+    <h2 style="text-align: center; color: #000;"><strong>SY:2021-2022</strong></h2>
+    
+  </div>
+  <hr>
+  <div class="w3-container">
+  
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+    <a href="dashboard.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
+    <a href="student.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>Students</a>
+    <a href="moduletracker/moduletrackerQ1.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-list-alt fa-fw"></i>Module Tracker</a>
+    <a href="grades.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-map-o fa-fw"></i>Grades</a>
+    
+    <!--
+    
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Orders</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  News</a>
+    <a href="" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i> Traffic</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  History</a>
+    -->
+    <a href="index.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-power-off"></i>  Log Out</a><br><br>
+  </div>
+  <p style="text-align: center;"><small><i>Copyright<span>&copy;</span>2021: &nbsp;WMA Academy-Ozamiz City Inc.</i></small></p>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+  <!-- Header -->
+  <header class="w3-container" style="padding-top:22px">
+    <h5><b><i class="fa fa-users"></i><strong>WMA ACADEMY-OZAMIZ ENROLLMENT UPDATE</strong></b></h5>
+  </header>
+
+  <div class="w3-row-padding w3-margin-bottom">
+    <div class="w3-quarter">
+      <div class="w3-container w3-red w3-padding-16">
+        <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></i></div>
+        <div class="w3-right">
+          <h3>73</h3>
+        </div>
+        <div class="w3-clear"></div>
+        <h4>Total Population</h4>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-blue w3-padding-16">
+        <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3>28</h3>
+        </div>
+        <div class="w3-clear"></div>
+        <h4>Grade 7</h4>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-teal w3-padding-16">
+        <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3>14</h3>
+        </div>
+        <div class="w3-clear"></div>
+        <h4>Grade 8</h4>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-orange w3-text-white w3-padding-16">
+        <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3>31</h3>
+        </div>
+        <div class="w3-clear"></div>
+        <h4>Grade 9</h4>
+      </div>
+    </div>
+  </div>
+
+  <table>
+    <h4 style="background: beige;"><i class="fa fa-bell"></i><strong>Note</strong> 
+      <small>
+        <i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;Grade Sheets and Student Roster is now available. <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; Click on Students and select the grade.<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; For the Grading Sheet, just click to download the excel<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;Reminder, NEVER DELETE ANY PORTION OF THE GRADING SHEET.
+        </i>
+      </small>
+    </h4>
+  </table>
+  <!-- Header -->
+  
+  <header class="w3-container" style="padding-top:22px">
+    <h1 style="background: beige;" ><i class="fa fa-handshake-o"></i><strong>Welcome Maam Allen!</strong></h1>
+    <h5 style="background: beige;"><b><i class="fa fa-users"></i><strong>TEACHER'S INFORMATION</strong></b></h5>
+  </header>
+  <!--End of Header-->
+    <div class="w3-container">
+      <div id="s.student"
+      <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
+        <button style="font-size:10px"><a href="https://docs.google.com/spreadsheets/d/1yt1zRsjh_9I2psvryVKX4TuSIVbt8WfELxTUEhUO6VI/edit#gid=651610233">Edit Profile<i class="fa fa-edit"></i></a></button>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRkD-H337G8-KMINNHaSd-b3V-Y6QXZcQoBJ_zXlDb4CSGvIKgj-ESKx2kb2mVvLGSr3ffziDz0CWov/pubhtml?gid=1148537922&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="590"></iframe>
+      </table>
+    </div>
+
+  <header class="w4-container" style="padding-top:22px">
+    <h3 style="background: beige;"><b><i class="fa fa-map-o"></i><strong>GRADE SUBMISSION</strong></b></h3>
+  </header>
+  <!--End of Header-->
+    <div class="w4-container">
+      <div id="s.student"
+      <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
+        <iframe src="" width="100%" height="290"></iframe>
+      </table>
+    </div>
+
+  <header class="w4-container" style="padding-top:22px">
+    <h3 style="background: beige;"><b><i class="fa fa-list-alt"></i><strong>MODULE UPDATE</strong></b></h3>
+  </header>
+  <!--End of Header-->
+    <div class="w4-container">
+      <div id="s.student"
+      <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
+       <h4>DOne Updating</h4>
+      </table>
+    </div>
+  
+  <hr>
+  <div class="w3-container" style="background: beige;">
+    <h3><i class="fa fa-users"></i><strong>Student Populations</strong></h3>
+    <h3>Grade 7</h3>
+    <div class="w3-grey">
+      <div class="w3-container w3-center w3-padding w3-blue" style="width:54%">27</div>
+    </div>
+
+    <h3>Grade 8</h3>
+    <div class="w3-grey">
+      <div class="w3-container w3-center w3-padding w3-teal" style="width:28%">14</div>
+    </div>
+
+    <h3>Grade 9</h3>
+    <div class="w3-grey">
+      <div class="w3-container w3-center w3-padding w3-orange" style="width:62%">31</div>
+    </div>
+    <br>
+  </div>
+  <hr>
+
+ 
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-4 w3-light-grey">
+    <h5 style="background: burlywood;"><strong><i>WMA Academy-Ozamiz City Inc. ∫ 409946 ∫ Linabo, Bañadero, Ozamiz City</i></strong></h>
+  </footer>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+<!-- Start of Async Drift Code
+<script>
+  "use strict";
+  
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('u32kpg3zsvem');
+  </script>
+  <!-- End of Async Drift Code -->
+</body>
+</html>
